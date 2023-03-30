@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+   
+}
+
+h1 {
+   padding-top: 1rem;
+   padding-left: .2rem; 
+}
+
+/* AGGIUNGI ELEMENTI */
+.new-elem {
+    display: flex;
+    justify-content: center;
+}
+
+.add-btn {
+    margin: .2rem;
+   
+}
+
+/* LISTA ELEMENTI  */
+
+.elements {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+p {
+    padding-right: .5rem;
+}
+
+.line {
+    text-decoration: line-through;
+    color: red;
+}
