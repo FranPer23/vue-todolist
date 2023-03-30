@@ -18,15 +18,17 @@ createApp({
                 done: false,
                 }
             ],
-            newElement:"",
+            newElement: null,
 
         };
     },
 
     methods: {
         addNewElement() {
-            this.elements.push(this.newElement);
-            
+            if(this.newElement.length > 0) {
+                this.elements.unshift(this.newElement);
+              
+            }
         }
 
     }
